@@ -1,0 +1,43 @@
+.contact {
+  padding: 5rem 2rem;
+  background: #f9f9f9;
+
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    input, textarea {
+      margin-top: 0.5rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.8rem;
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #ff4747;
+      }
+    }
+  }
+}

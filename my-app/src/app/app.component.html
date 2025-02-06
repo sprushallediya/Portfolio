@@ -1,0 +1,24 @@
+<nav>
+    <a (click)="scrollToSection('about')">About</a>
+    <a (click)="scrollToSection('education')">Education</a>
+    <a (click)="scrollToSection('projects')">Projects</a>
+    <a (click)="scrollToSection('skills')">Skills</a>
+    <a (click)="scrollToSection('extracurricular')">Extracurricular</a>
+    <a (click)="scrollToSection('contact')">Contact</a>
+  </nav>
+  
+  <app-about id="about"></app-about>
+  <app-education id="education"></app-education>
+  <app-projects id="projects"></app-projects>
+  <app-skills id="skills"></app-skills>
+  <app-extracurricular id="extracurricular"></app-extracurricular>
+  <app-contact id="contact"></app-contact>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a passionate Angular developer building modern web applications.</p>
+      <button class="cta-button" routerLink="/about">Learn More</button>
+    </div>
+  </section>
+  
